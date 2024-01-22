@@ -42,5 +42,11 @@ public class Main {
 
         TextIO.write("person.txt", sb.toString());
 
+        for (Person person : list) {
+            System.out.println(person);
+        }
+
+        // list.forEach(System.out::println);
+
     }
 }
